@@ -26,8 +26,18 @@ p {
   bottom: 0;
   max-width: 70%;
 }
-
+@media only screen
+  and (min-width: 650px)
+  and (max-width: 800px){
+    #welcome{
+      height:100%;
+    }
+  }
 @media only screen and (max-width:800px) {
+  #welcome{
+  padding:0;
+  height:90%;
+  }
   .banner-image {
     position: absolute;
     top: -120px;
@@ -243,7 +253,11 @@ p {
 #simplified {
   padding: 90px;
 }
-
+@media only screen and (max-width:800px){
+  #simplified{
+    padding:0;
+  }
+}
 #simplified h5 {
   color: #212529;
   font-size: 22px;

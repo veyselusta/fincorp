@@ -1,1 +1,1 @@
-# fincorp
+https://veyselusta.github.io/fincorp/
